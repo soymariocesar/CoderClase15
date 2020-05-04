@@ -1,0 +1,334 @@
+<!doctype html>
+<!-- SEO - Declaro el idioma de mi página en español -->
+<html lang="es">
+<head>
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Mario César Fernández">
+
+  <!-- SEO - Descripción del sitio -->
+  <meta name="description" content="Este es un sitio dedicado a la banda de indie rock neoyorquina The Strokes, como proyecto integrador para el curso de diseño web de Coderr House">
+  
+  <!-- SEO - Palabras Clave (Banda, género musical, nombre de los discos, canciones más conocidas e integrantes.) -->
+  <meta name="keywords" content="The Strokes, Indie Rock, Is this it, Room on fire, First Impressions of Earth, Angles, Countdown Machine, The New Abnormal, Last Nite, Someday, Reptilia, Juicebox, You only live once, Heart in a cage, Julian Casablancas, Albert Hammond Jr, Nick Valensi, Nikolai Fraiture, Fabrizio Moretti, RCA Records">
+  
+  <!-- Linkeo los CSS -->
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+  <!-- Linkeo los JS para el carusel de imágenes -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+  <!-- Incorporo Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rajdhani:400,700&display=swap" rel="stylesheet">
+
+  <!-- SEO - Título de página - Preciso -->
+  <title>THE STROKES - Proyecto Integrador - CODERHOUSE</title>
+</head>
+<body class="body">
+
+    <!-- INICIO DEL CONTENEDOR-->
+    <div class="container">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- Utilizo tema oscuro -->
+          <a class="navbar-brand" href="index.html">THE STROKES</a>
+        
+        <!-- Inicio Menú Hamburguesa en dispositivos móviles -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Fin de Menú Hamburguesa en dispositivos móviles-->
+
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#integrantes">Integrantes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#discografia">Discografía</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gira">Gira</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        </nav>
+      </header>
+
+      <!-- INICIO DEL SLIDER -->
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicadores de cada uno de los slides -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+  
+      <!-- Imágener del Slider -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="w-100" src="img/strokes01.jpg" alt="The Strokes 2020">
+        </div>
+        <div class="carousel-item">
+          <img class="w-100" src="img/strokes02.jpg" alt="The Strokes 2011">
+        </div>
+        <div class="carousel-item">
+          <img class="w-100" src="img/strokes03.jpg" alt="The Strokes 2002">
+        </div>
+      </div>
+  
+      <!-- Controles Izquierda y Derecha -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+      </div>
+      <!-- FIN DEL SLIDER -->
+
+      <!-- INICIO DEL CONTENIDO-->
+      <div class="row w-100 mx-auto">
+        <main class="col-md-8 main">
+
+          <div id="video" class="my-3">
+              <h1 class="titulo1">The Strokes</h1>
+
+              <!-- SEO - Video Optmizado para la web -->
+              <video class="w-100" src="video/strokes.mp4" controls="autoplay">
+                <p>The Strokes. Un video recopilatorio de diferentes momentos de la banda a lo largo de los últimos 20 años.</p>
+              </video>
+          </div>
+
+          <!-- Inicio de Integrantes --> 
+          <div id="integrantes" class="my-3">
+          <h2 class="titulo2">Integrantes</h2>
+
+          <div  class="row row-cols-md-2 row-cols-xl-3">
+            <!-- JULIAN -->
+            <div class="col mb-4">
+              <div class="card h-100">
+                <!-- SEO - Imagen optimizada para la web y descripción en el atributo "alt" -->
+                <img src="img/julian.jpg" class="card-img-top" alt="Julián Casablancas cantando en vivo">
+                <div class="card-body">
+                  <h5 class="card-title">Julian Casablancas</h5>
+                  <p class="card-text">Cantante y compositor en The Strokes, The Voidz y solista.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ALBERT -->
+            <div class="col mb-4">
+              <div class="card h-100">
+                <!-- SEO - Imagen optimizada para la web y descripción en el atributo "alt" -->
+                <img src="img/albert.jpg" class="card-img-top" alt="Albert Hammond Jr. tocando la guitarra en vivo">
+                <div class="card-body">
+                  <h5 class="card-title">Albert Hammond</h5>
+                  <p class="card-text">Guitarrista en The Strokes. Lanzó discos como solista.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- NICK -->
+            <div class="col mb-4">
+              <div class="card h-100">
+                <!-- SEO - Imagen optimizada para la web y descripción en el atributo "alt" -->
+                <img src="img/nick.jpg" class="card-img-top" alt="Nick Valensi tocando la guitarra en vivo">
+                <div class="card-body">
+                  <h5 class="card-title">Nick Valensi</h5>
+                  <p class="card-text">Guitarrista en The Strokes. También toca teclados.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- NIKOLAI -->
+            <div class="col mb-4">
+              <div class="card h-100">
+                <!-- SEO - Imagen optimizada para la web y descripción en el atributo "alt" -->
+                <img src="img/nikolai.jpg" class="card-img-top" alt="Nikolai Fraiture tocando el bajo en vivo">
+                <div class="card-body">
+                  <h5 class="card-title">Nikolai Fraiture</h5>
+                  <p class="card-text">Bajista en The Strokes. Co-escritor y compositor.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FABRIZIO -->
+            <div class="col mb-4">
+              <div class="card h-100">
+                <!-- SEO - Imagen optimizada para la web y descripción en el atributo "alt" -->
+                <img src="img/fabrizio.jpg" class="card-img-top" alt="Fabrizio Moretti tocando la bateria en vivo">
+                <div class="card-body">
+                  <h5 class="card-title">Fabrizio Moretti</h5>
+                  <p class="card-text">Baterista en The Strokes. Proyectos independientes.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          </div>
+          <!-- Fin de Integrantes -->
+
+          <!-- Inicio de Contacto -->
+          <div id="contacto" class="my-3">
+          <h2 class="titulo2">Contacto</h2>
+          
+          <div class="w-100 mx-auto">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Dirección de Mail:</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribí aquí tu email.">
+                  <small id="emailHelp" class="form-text text-muted">No compartiremos tu cuenta de mail con nadie.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Dejanos un mensaje.</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribí aquí tu mensaje."></textarea>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Acepto suscribirme a The Strokes.</label>
+              </div>
+              <button type="submit" class="btn btn-dark">Enviar</button>
+              <button type="reset" class="btn btn-dark">Resetear</button>
+            </form>
+          </div>
+          </div>
+          <!-- Fin de Contacto -->
+        </main>
+
+        <aside class="col-md-4 aside">
+          
+          <!-- Inicio de Gira -->
+          <div id="gira" class="my-3">
+            <h2 class="titulo2">Gira</h2>
+            <h3 class="titulo3">Próxima Fechas</h3>
+
+            <div>
+              <table class="table w-100">
+                <thead>
+                  <tr>
+                    <th scope="col">Fecha</th>
+                    <th scope="col">Ciudad</th>
+                    <th scope="col">País</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">07 Mayo</th>
+                    <td>New Orleans</td>
+                    <td>USA</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16 Mayo</th>
+                    <td>México D.F.</td>
+                    <td>MÉXICO</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">05 Junio</th>
+                    <td>Barcelona</td>
+                    <td>ESPAÑA</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div> 
+          </div>
+          <!-- Fin de Gira -->
+
+          <!-- Inicio de Discografía -->
+          <div id="discografia" class="my-3">
+            <h2 class="titulo2">Discografía</h2>
+            <h3 class="titulo3">2000-2020</h3>
+            <div>
+              <table class="table table-striped w-100">
+                <thead>
+                  <tr>
+                    <th scope="col">Portada</th>
+                    <th scope="col">Año</th>
+                    <th scope="col">Nombre</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <!-- SEO - Imagen optimizada para la web y descripción en el atributo "alt" -->
+                    <th scope="row"><img class="w-100" src="img/isthisit.jpg" alt="Portada del disco Is this it"></th>
+                    <td class="col2">2001</td>
+                    <td class="col3">Is this it</td>
+                  </tr>
+                  <tr>
+                    <!-- SEO - Imagen optimizada para la web y descripción en el atributo "alt" -->
+                    <th scope="row"><img class="w-100" src="img/roomonfire.jpg" alt="Portada del disco Room on fire"></th>
+                    <td>2002</td>
+                    <td>Room on Fire</td>
+                  </tr>
+                  <tr>
+                    <!-- SEO - Imagen optimizada para la web y descripción en el atributo "alt" -->
+                    <th scope="row"><img class="w-100" src="img/first.jpg" alt="Portada del disco First Impresions of Earth"></th>
+                    <td>2005</td>
+                    <td>First Impresions</td>
+                  </tr>
+                  <tr>
+                    <!-- SEO - Imagen optimizada para la web y descripción en el atributo "alt" -->
+                    <th scope="row"><img class="w-100" src="img/angles.jpg" alt="Portada del disco Angles"></th>
+                    <td>2009</td>
+                    <td>Angles</td>
+                  </tr>
+                  <tr>
+                    <!-- SEO - Imagen optimizada para la web y descripción en el atributo "alt" -->
+                    <th scope="row"><img class="w-100" src="img/countdown.jpg" alt="Portada del disco Countdown Machine"></th>
+                    <td>2013</td>
+                    <td>Countdown Machine</td>
+                  </tr>
+                  <tr>
+                    <!-- SEO - Imagen optimizada para la web y descripción en el atributo "alt" -->
+                    <th scope="row"><img class="w-100" src="img/new.jpg" alt="Portada del disco The New Abnormal"></th>
+                    <td>2020</td>
+                    <td>The New Abnormal</td>
+                  </tr>  
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+          <!-- Fin de Discografía -->
+        </aside>
+      </div>
+      <!-- FIN DEL CONTENIDO-->
+
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+      <div class="row">
+        <div class="col-md-8 text-center">
+        <small>Copyright 2020 &copy; Proyecto Integrador - GITHUB</small>
+        </div>
+        <div class="col-md-4 redes">
+          <a href="https://www.facebook.com/thestrokes/" target="new">
+            <div class="fb-logo"></div>
+          </a>
+          <a href="https://twitter.com/thestrokes" target="new">
+            <div class="tw-logo"></div>
+          </a>
+          <a href="https://www.instagram.com/thestrokes/" target="new">
+            <div class="ig-logo"></div>
+          </a>
+          <a href="https://www.youtube.com/user/thestrokes" target="new">
+              <div class="yt-logo"></div>
+          </a>
+        </div>
+      </div>
+    </footer>
+    </div>
+    <!-- FIN DEL CONTENEDOR-->
+</body>
+</html>

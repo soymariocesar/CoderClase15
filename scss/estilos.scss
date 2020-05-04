@@ -1,0 +1,114 @@
+// Declaro algunas variables
+$font: 'Rajdhani', sans-serif;
+$color: #111;
+
+$ancho: 100%;
+
+// Anidación
+.body{
+	background: #000;
+
+	.container{
+		header {
+			nav {
+				font-family: $font; 
+			}
+		}
+	}
+}
+
+
+.main{
+	background: #eee;
+
+	#video{
+
+		.titulo1{
+			font-family: $font;
+			color: $color;
+			font-weight: 700;
+			text-transform: uppercase;
+			text-align: center;
+		}
+	}
+
+	#integrantes{
+
+		.titulo2{
+			font-family: $font; 
+			font-weight: 400;
+			text-align: center;
+		}
+	}
+
+	#contacto{
+		.titulo2{
+			font-family: $font;
+			font-weight: 400;
+			text-align: center;
+		}
+	}
+}
+
+.aside {
+	background: #ddd;
+
+	#gira{
+
+		.titulo2{
+			font-family: $font;
+			font-weight: 400;
+			text-align: center;
+		}
+
+		.titulo3{
+			font-family: $font;
+			font-weight: 700;
+			text-align: center;
+		}
+	}
+
+	#discografia{
+
+		.titulo2{
+			font-family: $font;
+			font-weight: 400;
+			text-align: center;
+		}
+
+		.titulo3{
+			font-family: $font;
+			font-weight: 700;
+			text-align: center;
+		}
+
+		// Aplico Operaciones
+		table {
+			.col2 {
+				width: $ancho/3;
+			}
+			.col3 {
+				width: ($ancho/3)*2;
+
+			}
+		}
+	}
+}
+
+footer {
+	.redes {
+		display: flex;
+		justify-content: space-evenly;
+
+		//Aplico Each para generar las redes
+		@each $redes in fb, tw, ig, yt {
+   			.#{$redes}-logo {
+     			background-image: url('../img/#{$redes}.png');
+     			width: 25px;
+     			height: 25px;
+   				}
+		}
+
+	}
+
+}

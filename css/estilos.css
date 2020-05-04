@@ -1,0 +1,64 @@
+.body {
+  background: #000; }
+  .body .container header nav {
+    font-family: "Rajdhani", sans-serif; }
+
+.main {
+  background: #eee; }
+  .main #video .titulo1 {
+    font-family: "Rajdhani", sans-serif;
+    color: #111;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center; }
+  .main #integrantes .titulo2 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    text-align: center; }
+  .main #contacto .titulo2 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    text-align: center; }
+
+.aside {
+  background: #ddd; }
+  .aside #gira .titulo2 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    text-align: center; }
+  .aside #gira .titulo3 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    text-align: center; }
+  .aside #discografia .titulo2 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    text-align: center; }
+  .aside #discografia .titulo3 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    text-align: center; }
+  .aside #discografia table .col2 {
+    width: 33.33333%; }
+  .aside #discografia table .col3 {
+    width: 66.66667%; }
+
+footer .redes {
+  display: flex;
+  justify-content: space-evenly; }
+  footer .redes .fb-logo {
+    background-image: url("../img/fb.png");
+    width: 25px;
+    height: 25px; }
+  footer .redes .tw-logo {
+    background-image: url("../img/tw.png");
+    width: 25px;
+    height: 25px; }
+  footer .redes .ig-logo {
+    background-image: url("../img/ig.png");
+    width: 25px;
+    height: 25px; }
+  footer .redes .yt-logo {
+    background-image: url("../img/yt.png");
+    width: 25px;
+    height: 25px; }
